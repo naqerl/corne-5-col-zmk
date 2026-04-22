@@ -40,10 +40,10 @@
 
                 gaming_layer {
                         bindings = <
-&kp Q        &kp W &kp E &kp R      &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P
-&kp A        &kp S &kp D &mt LCTL F &kp G    &kp H    &kp J    &kp K    &kp L    &kp SQT
-&mt LSHIFT Z &kp X &kp C &kp V      &kp B    &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH
-                      &trans &trans &trans   &kp RET  &kp LALT &kp ESC
+&trans      &trans  &trans  &trans  &mt TAB t     &trans  &trans  &trans  &trans  &trans
+&kp A       &kp S   &kp D   &trans  &mt LALT g    &trans  &trans  &trans  &trans  &trans
+&mt LGUI z  &trans  &trans  &trans  &mt ESC b     &trans  &trans  &trans  &trans  &trans
+                &kp LSHIFT  &trans  &trans        &trans  &trans  &trans
                         >;
                 };
 
@@ -59,8 +59,8 @@
                 raise_layer {
                         bindings = <
 &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &kp C_VOLUME_DOWN &kp C_VOLUME_UP   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-&mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_MUTE        &trans            &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &bt BT_CLR
-&trans         &trans         &msc SCRL_UP    &msc SCRL_DOWN    &trans            &trans       &kp PG_DN    &kp PG_UP    &trans       &trans
+&mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_MUTE        &trans            &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans
+&trans         &trans         &msc SCRL_UP    &msc SCRL_DOWN    &trans            &bt BT_CLR   &kp PG_DN    &kp PG_UP    &trans       &trans
                               &mkp LCLK       &kp CAPS          &mkp RCLK         &trans       &trans       &trans
                         >;
                 };
